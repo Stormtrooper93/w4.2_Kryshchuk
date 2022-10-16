@@ -1,0 +1,40 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "Raleway";
+  src: url("../../fonts/RalewayFont/Raleway-Light.woff") format("woff"), url("../../fonts/RalewayFont/Raleway-Light.eot") format("embedded opentype"), url("../../fonts/RalewayFont/Raleway-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 19.97px;
+  font-display: fallback;
+}
+@font-face {
+  font-family: "Raleway";
+  src: url("../../fonts/RalewayFont/Raleway-Regular.woff") format("woff"), url("../../fonts/RalewayFont/Raleway-Regular.eot") format("embedded opentype"), url("../../fonts/RalewayFont/Raleway-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18.78px;
+  font-display: fallback;
+}
+@font-face {
+  font-family: "Raleway";
+  src: url("../../fonts/RalewayFont/Raleway-SemiBold.woff") format("woff"), url("../../fonts/RalewayFont/Raleway-SemiBold.eot") format("embedded opentype"), url("../../fonts/RalewayFont/Raleway-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16.44px;
+  font-display: fallback;
+}
+@font-face {
+  font-family: "Raleway";
+  src: url("../../fonts/RalewayFont/Raleway-Bold.woff") format("woff"), url("../../fonts/RalewayFont/Raleway-Bold.eot") format("embedded opentype"), url("../../fonts/RalewayFont/Raleway-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 23.27px;
+  font-display: fallback;
+}
+@font-face {
+  font-family: "Dela Gothic One";
+  src: url("../../fonts/DelaGothicOne/DelaGothicOne-Regular.woff2") format("woff2"), url("../../fonts/DelaGothicOne/DelaGothicOne-Regular.woff") format("woff"), url("../../fonts/DelaGothicOne/DelaGothicOne-Regular.eot") format("embedded opentype"), url("../../fonts/DelaGothicOne/DelaGothicOne-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23.27px;
+  font-display: fallback;

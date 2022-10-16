@@ -1,5 +1,59 @@
+@font-face {
+    font-family: "Trade Gothic LT Extended";
+    src: 
+    url("fonts/Trade Gothic LT Extended.woff2") format("woff2"),
+    url("fonts/Trade Gothic LT Extended.woff") format("woff"),
+    url("fonts/Trade Gothic LT Extended.otf") format("opentype");
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: "OggLight";
+    src: 
+    url("fonts/OggLight.woff2") format("woff2"),
+    url("fonts/OggLight.woff") format("woff"),
+    url("fonts/OggLight.otf") format("opentype");
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: "OggLightItalic";
+    src: 
+    url("fonts/OggLightItalic.woff2") format("woff2"),
+    url("fonts/OggLightItalic.woff") format("woff"),
+    url("") format("opentype");
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: "OggMedium";
+    src: 
+    url("fonts/OggMedium.woff2") format("woff2"),
+    url("fonts/OggMedium.woff") format("woff"),
+    url("fonts/OggMedium.otf") format("opentype");
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: "OggMediumItalict";
+    src: 
+    url("fonts/OggMediumItalic.woff2") format("woff2"),
+    url("fonts/OggMediumItalic.woff") format("woff"),
+    url("fonts/OggMediumItalic.otf") format("opentype");
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: "OggRegular";
+    src: 
+    url("fonts/OggRegular.woff2") format("woff2"),
+    url("fonts/OggRegular.woff") format("woff"),
+    url("fonts/OggRegular.otf") format("opentype");
+    font-display: fallback;
+}
+
 body {
-    font-family: 'Montserrat';
+    font-family: 'Trade Gothic LT Extended';
     font-size: 16px;
     font-weight: 400;
 }
@@ -17,7 +71,7 @@ body {
 }
 
 h2 {
-    font-family: 'Quattrocento';
+    font-family: 'OggLight';
     font-weight: 400;
     font-size: 60px;
 }
@@ -36,6 +90,10 @@ h2 {
 
 .highlight {
     color: #71870E;
+}
+
+.font__medium-italic {
+    font-family: 'OggMediumItalict';
 }
 
 .philosophy .flex-wrap {
@@ -71,11 +129,11 @@ h2 {
 
 .read-more__line {
     vertical-align: middle;
-    padding: 35px;
+    padding-right: 35px;
 }
 
 .read-more__button {
-    font-family: 'Quattrocento';
+    font-family: 'Trade Gothic LT Extended';
     color: #71870E;
 }
 
@@ -93,7 +151,7 @@ aside {
 .end-title {
     padding: 75px 0px;
     text-align: center;
-    font-family: 'Quattrocento';
+    font-family: 'Trade Gothic LT Extended';
     color: #71870E;
 }
 
@@ -116,6 +174,7 @@ aside {
     .philosophy .flex-wrap {
         flex-direction: column;
         align-items: center;
+        padding: 0;
     }
 
     .theme {
@@ -142,7 +201,9 @@ aside {
     }
 
     .read-more {
-        padding-top: 90px 0px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        text-align: center;
     }
 
 
